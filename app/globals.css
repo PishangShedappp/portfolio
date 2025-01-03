@@ -74,3 +74,13 @@ html {
   white-space: normal; /* Allow text to wrap */
   overflow-wrap: break-word; /* Break long words if necessary */
 }
+
+.marquee-gradient {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}

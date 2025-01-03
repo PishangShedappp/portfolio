@@ -7,7 +7,7 @@ import EarthCanvas from '../canvas/Earth'
 
 export default function Hero() {
     return (
-        <div className="relative flex flex-col h-screen w-full">
+        <div className="relative flex flex-col h-svh w-full">
             <motion.div initial="hidden" animate="visible" className='flex flex-col md:flex-row items-center justify-center h-full w-full z-[20] my-20 md:my-0'>
                 <div className="flex flex-col gap-5 justify-center m-auto text-center md:text-start md:w-1/2 px-10 lg:px-28">
                     {/* Center the Welcome-box on small screens and align left on medium and above */}
