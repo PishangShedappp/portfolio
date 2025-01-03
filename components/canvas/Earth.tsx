@@ -26,7 +26,7 @@ export default function EarthCanvas() {
         const handleResize = () => {
             let newScale;
             if (window.innerWidth < 768) { // Small screens (you can adjust the breakpoint)
-                newScale = Math.max(2, window.innerWidth / 300); // Larger scale for small screens
+                newScale = Math.max(2, window.innerWidth / 500); // Larger scale for small screens
             } else {
                 newScale = Math.max(1, window.innerWidth / 1000); // Default scale for medium and large screens
             }
