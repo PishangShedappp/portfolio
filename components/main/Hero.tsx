@@ -33,6 +33,8 @@ export default function Hero() {
 
                     <div className="flex justify-center md:justify-start"> {/* Center button only on small screens */}
                         <motion.a
+                            href="https://github.com/PishangShedappp?tab=repositories"
+                            target="_blank"
                             className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] min-w-[200px]'
                         >
                             View My Projects
